@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=device-dpi, minimal-ui" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
+
+        <link rel="stylesheet" type="text/css" href="demo/css/theme-blue-moon.css" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>QUATRO RODAS</title>   
+          
+
+    </head>
+
+    <body ng-app="myApp" lateral-slide-menu-controller >    
+         <!-- MENU -->
+          <lateral-slide-menu ng-cloak>
+                <img src= "demo/images/logo-header.png">
+            <ul>
+              <li><a href="#" class="selected">Testes</a></li>
+              <li><a href="#">Noticias</a></li>
+              <li><a href="#">Autoserviço</a></li>
+              <li><a href="#">Guia de  Compras</a></li>
+              <li><a href="#">Tabela FIPE </a></li>   
+              <li>  <img src= "demo/images/compass2017_01.jpeg"  id="compass" />  </li> 
+         </ul>    
+                  
+      </lateral-slide-menu>
+          
+
+       
+          <!-- main page -->
+          <div class="main-page lateral-slide-menu-main-page">       
+               
+            <a href="" class="toggle-menu" lateral-slide-menu-toggle></a>
+          </div>   
+   
+         
+        <!-- script -->
+
+        <script type="text/javascript" src="demo/lib/angular/angular.js"></script>
+
+       <script type="text/javascript" src="demo/lib/angular/angular-animate.js"></script>
+
+        <script type="text/javascript" src="demo/js/angular-ap-lateral-slide-menu.js"></script>
+
+        <script type="text/javascript" src="demo/js/app.js"></script>
+        
+    </body>
+</html>
